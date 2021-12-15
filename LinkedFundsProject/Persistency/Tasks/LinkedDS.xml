@@ -1,15 +1,15 @@
 <?xml version="1.0"?>
 <DataConversion xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <Name>Linked</Name>
+  <Name>LinkedDS</Name>
   <Parent />
-  <Previous />
+  <Previous>Linked</Previous>
   <LastModifiedBy>david</LastModifiedBy>
-  <LastModifiedOn>2021-12-15T14:29:00.5272286+00:00</LastModifiedOn>
-  <CreatedBy>ClareStone</CreatedBy>
-  <CreatedOn>2021-12-15T09:06:39.7072794+00:00</CreatedOn>
-  <Key>Linked</Key>
+  <LastModifiedOn>2021-12-15T14:29:09.1742371+00:00</LastModifiedOn>
+  <CreatedBy>david</CreatedBy>
+  <CreatedOn>2021-12-15T14:29:05.3308387+00:00</CreatedOn>
+  <Key>LinkedDS</Key>
   <Folder>false</Folder>
-  <LastModified>2021-12-15T14:29:00.5272286+00:00</LastModified>
+  <LastModified>2021-12-15T14:29:09.1742371+00:00</LastModified>
   <Notes />
   <IsExpanded>true</IsExpanded>
   <Type>Indiv</Type>
@@ -34,25 +34,7 @@
   <StartUpDelay>100</StartUpDelay>
   <BackupAfterRun>false</BackupAfterRun>
   <IncludeResultsInBackup>false</IncludeResultsInBackup>
-  <PackageVersion>0.0.0.2</PackageVersion>
-  <RevisionIds>
-    <item>
-      <key>
-        <int>1</int>
-      </key>
-      <value>
-        <string>039c4f21-5e89-44f9-bd23-afa06e3ab0e6</string>
-      </value>
-    </item>
-    <item>
-      <key>
-        <int>2</int>
-      </key>
-      <value>
-        <string>4c0097a9-2fbe-4060-af21-5ba95b7a5b86</string>
-      </value>
-    </item>
-  </RevisionIds>
+  <RevisionIds />
   <Code>Overrides Sub RunCode(Optional OutputResults As Boolean = True)
     DefineGrouping(Function(var) {"Sex1 = " &amp; var.Sex1, "PremFreq = " &amp; var.PremFreq}, 1)
     Log.Progress("Hello")    
@@ -68,13 +50,11 @@ End Sub</Code>
     <Name>Linked_Inputs</Name>
     <Parent />
     <Previous>Basis</Previous>
-    <LastModifiedBy>ClareStone</LastModifiedBy>
-    <LastModifiedOn>2021-12-15T09:06:39.7062815+00:00</LastModifiedOn>
-    <CreatedBy>ClareStone</CreatedBy>
-    <CreatedOn>2021-12-15T09:06:39.7062815+00:00</CreatedOn>
-    <Key>Linked_Inputs</Key>
+    <LastModifiedOn>0001-01-01T00:00:00</LastModifiedOn>
+    <CreatedBy>david</CreatedBy>
+    <CreatedOn>2021-12-15T14:29:05.3308387+00:00</CreatedOn>
     <Folder>false</Folder>
-    <LastModified>2021-12-15T09:06:39.7062815+00:00</LastModified>
+    <LastModified>0001-01-01T00:00:00</LastModified>
     <Notes />
     <IsExpanded>true</IsExpanded>
     <IsProjectTable>false</IsProjectTable>
@@ -93,12 +73,11 @@ End Sub</Code>
     <DoubleType>true</DoubleType>
     <Rows>1</Rows>
     <Cols>14</Cols>
-    <ColWidths />
     <HasHeadings>true</HasHeadings>
     <RunControlTable>false</RunControlTable>
   </InputsTable>
   <CopyProperties>(none)</CopyProperties>
-  <InputOverrides>false</InputOverrides>
+  <InputOverrides>true</InputOverrides>
   <ParameterOverrides>false</ParameterOverrides>
   <ReadFromFileIfAvailable>false</ReadFromFileIfAvailable>
   <ProjectionInputs />
@@ -118,7 +97,6 @@ End Sub</Code>
   <CircularReferenceCheck>false</CircularReferenceCheck>
   <ResetParamDefaults>false</ResetParamDefaults>
   <SuppressVariableValidation>false</SuppressVariableValidation>
-  <ProjectionDllPath>C:\Users\ClareStone\Documents\Mo.net Projects\LinkedFundsProject\Linked_DLLFolder</ProjectionDllPath>
   <ApplyGrouping>false</ApplyGrouping>
   <ApplySorting>false</ApplySorting>
   <ApplyMergeTest>false</ApplyMergeTest>

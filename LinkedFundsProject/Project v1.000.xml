@@ -1,11 +1,11 @@
 <?xml version="1.0"?>
 <Project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Name>LinkedFundsProject</Name>
-  <LastModifiedBy>ClareStone</LastModifiedBy>
+  <LastModifiedBy>david</LastModifiedBy>
   <LastModifiedOn xsi:nil="true" />
   <CreatedOn xsi:nil="true" />
   <Folder>false</Folder>
-  <LastModified>2021-12-15T14:19:55.305827+00:00</LastModified>
+  <LastModified>2021-12-15T14:29:09.1742371+00:00</LastModified>
   <Notes />
   <IsExpanded>true</IsExpanded>
   <CreateDate>2019-09-12T16:48:20.7220734+01:00</CreateDate>
@@ -20,7 +20,15 @@
   <References />
   <ExternalSourceControl>true</ExternalSourceControl>
   <DisableLastModified>true</DisableLastModified>
-  <RevisionIds />
-  <CommitRef>492a3dd</CommitRef>
+  <RevisionIds>
+    <item>
+      <key>
+        <int>1</int>
+      </key>
+      <value>
+        <string>66579059-5d2b-4cbc-af1c-ecb67dc2e4d2</string>
+      </value>
+    </item>
+  </RevisionIds>
   <OpenAsReadOnly>false</OpenAsReadOnly>
 </Project>
