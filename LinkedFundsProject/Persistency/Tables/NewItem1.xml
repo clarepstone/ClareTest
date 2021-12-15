@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<Table xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>NewItem1</Name>
+  <Parent />
+  <Previous>Excel</Previous>
+  <LastModifiedBy>ClareStone</LastModifiedBy>
+  <LastModifiedOn>2021-12-15T09:06:39.708276+00:00</LastModifiedOn>
+  <CreatedBy>ClareStone</CreatedBy>
+  <CreatedOn>2021-12-15T09:06:39.708276+00:00</CreatedOn>
+  <Folder>false</Folder>
+  <LastModified>2021-12-15T09:06:39.708276+00:00</LastModified>
+  <Notes />
+  <IsExpanded>true</IsExpanded>
+  <IsProjectTable>true</IsProjectTable>
+  <IsDataSource>true</IsDataSource>
+  <IsODBCSource>false</IsODBCSource>
+  <IsDatFileSource>false</IsDatFileSource>
+  <IsDatabaseConnection>true</IsDatabaseConnection>
+  <DatabaseConnectionSettings>
+    <Security>OperatingSystem</Security>
+    <Connection>ServerName</Connection>
+    <DatabasePlatform>SQLServer</DatabasePlatform>
+    <DataSource />
+    <Port>1433</Port>
+  </DatabaseConnectionSettings>
+  <FilePath />
+  <Reference />
+  <Delimiter>	</Delimiter>
+  <Internal>false</Internal>
+  <LookUpType>Row</LookUpType>
+  <BasisTable>false</BasisTable>
+  <IndexCols>1</IndexCols>
+  <DoubleType>true</DoubleType>
+  <Rows>1</Rows>
+  <Cols>1</Cols>
+  <HasHeadings>true</HasHeadings>
+  <RunControlTable>false</RunControlTable>
+</Table>
