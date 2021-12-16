@@ -2,13 +2,13 @@
 <Model xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Name>Fund</Name>
   <Parent />
-  <Previous />
+  <Previous>Clare</Previous>
   <LastModifiedBy>Guy</LastModifiedBy>
-  <LastModifiedOn>2021-12-16T16:28:18.8459496+00:00</LastModifiedOn>
+  <LastModifiedOn>2021-12-16T16:39:07.6451384+00:00</LastModifiedOn>
   <CreatedBy>ClareStone</CreatedBy>
   <CreatedOn>2021-12-15T09:06:39.6839484+00:00</CreatedOn>
   <Folder>false</Folder>
-  <LastModified>2021-12-16T16:28:18.8459496+00:00</LastModified>
+  <LastModified>2021-12-16T16:39:07.6451384+00:00</LastModified>
   <Notes />
   <IsExpanded>true</IsExpanded>
   <Inherit>false</Inherit>
